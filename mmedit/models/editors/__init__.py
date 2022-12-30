@@ -19,6 +19,7 @@ from .dim import DIM
 from .disco_diffusion import ClipWrapper, DiscoDiffusion
 from .edsr import EDSRNet
 from .edvr import EDVR, EDVRNet
+from .eg3d import EG3D
 from .esrgan import ESRGAN, RRDBNet
 from .fba import FBADecoder, FBAResnetDilated
 from .flavr import FLAVR, FLAVRNet
@@ -45,10 +46,12 @@ from .plain import PlainDecoder, PlainRefiner
 from .rdn import RDNNet
 from .real_basicvsr import RealBasicVSR, RealBasicVSRNet
 from .real_esrgan import RealESRGAN, UNetDiscriminatorWithSpectralNorm
+from .restormer import Restormer
 from .sagan import SAGAN
 from .singan import SinGAN
 from .srcnn import SRCNNNet
 from .srgan import SRGAN, ModifiedVGG, MSRResNet
+from .stable_diffusion import StableDiffusion
 from .stylegan1 import StyleGAN1
 from .stylegan2 import StyleGAN2
 from .stylegan3 import StyleGAN3, StyleGAN3Generator
@@ -82,5 +85,6 @@ __all__ = [
     'DiscoDiffusion', 'IDLossModel', 'PESinGAN', 'MSPIEStyleGAN2',
     'StyleGAN3Generator', 'InstColorization', 'NAFBaseline',
     'NAFBaselineLocal', 'NAFNet', 'NAFNetLocal', 'DDIMScheduler',
-    'DDPMScheduler', 'DenoisingUnet', 'ClipWrapper'
+    'DDPMScheduler', 'DenoisingUnet', 'ClipWrapper', 'EG3D', 'Restormer',
+    'StableDiffusion'
 ]
