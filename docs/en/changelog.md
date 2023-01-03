@@ -1,5 +1,64 @@
 # Changelog
 
+
+## What's Changed
+## v1.0.0rc4 (03/01/2023)
+
+**Highlights**
+* Fix disco notebook by @plyfager in https://github.com/open-mmlab/mmediting/pull/1507
+* [Enhancement] Fix unit test for disco diffusion by @LeoXing1996 in https://github.com/open-mmlab/mmediting/pull/1511
+* [Enhancement] Add torch1.13 checking in CI by @LeoXing1996 in https://github.com/open-mmlab/mmediting/pull/1509
+* [Enhance] set the default 404 page for readthedocs by @zengyh1900 in https://github.com/open-mmlab/mmediting/pull/1513
+* [Enhanchement] Revise test requirements and CI by @LeoXing1996 in https://github.com/open-mmlab/mmediting/pull/1514
+* [Enhance] Recursive generate summary and docstring for API Reference by @zengyh1900 in https://github.com/open-mmlab/mmediting/pull/1517
+* [Fix] fix documentation link checker by @zengyh1900 in https://github.com/open-mmlab/mmediting/pull/1522
+* [Doc] improve the structure of documentation by @zengyh1900 in https://github.com/open-mmlab/mmediting/pull/1521
+* [Doc] improve toctree and update model zoo and dataset zoo by @zengyh1900 in https://github.com/open-mmlab/mmediting/pull/1525
+* [Enhance] enable projects  by @zengyh1900 in https://github.com/open-mmlab/mmediting/pull/1526
+* [Docs] update contribution guidance by @zengyh1900 in https://github.com/open-mmlab/mmediting/pull/1527
+* [Enhancement] Fix text2image inferencer + disco diffusion GPU test by @LeoXing1996 in https://github.com/open-mmlab/mmediting/pull/1523
+* [Feature] Support Json-annotation to `BasicConditonalDataset` by @LeoXing1996 in https://github.com/open-mmlab/mmediting/pull/1524
+* [Feature] support mscoco dataset by @plyfager in https://github.com/open-mmlab/mmediting/pull/1520
+* [Doc] improve Chinese documents by @zengyh1900 in https://github.com/open-mmlab/mmediting/pull/1532
+* [CodeCamp #99] type hints Part B by @xiaomile in https://github.com/open-mmlab/mmediting/pull/1481
+* [Enhancement] Add reproducibility warning for BigGAN 128x128 by @LeoXing1996 in https://github.com/open-mmlab/mmediting/pull/1538
+* revise config of biggan-cvt by @LeoXing1996 in https://github.com/open-mmlab/mmediting/pull/1529
+* Add NAFNet to README file by @VongolaWu in https://github.com/open-mmlab/mmediting/pull/1531
+* [fix] fix disco readme by @liuwenran in https://github.com/open-mmlab/mmediting/pull/1519
+* [Fix] fix ssim only calculate on the first channel bug by @Z-Fran in https://github.com/open-mmlab/mmediting/pull/1515
+* [Enhancement] Revise `_base_` in tdan's config by @LeoXing1996 in https://github.com/open-mmlab/mmediting/pull/1544
+* [Enhancement] Use coverage < 7.0.0 in unit tests by @LeoXing1996 in https://github.com/open-mmlab/mmediting/pull/1549
+* [CodeCamp #83] Support Restormer model by @AlexZou14 in https://github.com/open-mmlab/mmediting/pull/1503
+* [Fix] fix restormer ut by @Z-Fran in https://github.com/open-mmlab/mmediting/pull/1550
+* [Bug] fix extract_gt_data of realesrgan by @ldr426 in https://github.com/open-mmlab/mmediting/pull/1542
+* update readme of projects  by @zengyh1900 in https://github.com/open-mmlab/mmediting/pull/1552
+* fix config path in disco-diffusion by @austin273 in https://github.com/open-mmlab/mmediting/pull/1553
+* [Doc] translate documentation, overview by @whu-lee in https://github.com/open-mmlab/mmediting/pull/1539
+* [Docs] translate documentation for loss function by @willaty in https://github.com/open-mmlab/mmediting/pull/1541
+* [Docs] Add docstring and type hint for initialization function of DDPM Scheduler by @curiosity654 in https://github.com/open-mmlab/mmediting/pull/1556
+* [Improvement] Update download link by @zengyh1900 in https://github.com/open-mmlab/mmediting/pull/1554
+* update deployment guide by @lvhan028 in https://github.com/open-mmlab/mmediting/pull/1551
+* [Fix] fix model index by @zengyh1900 in https://github.com/open-mmlab/mmediting/pull/1559
+* [Enhancement] Cover more lines of cyclegan-module's unit test by @LeoXing1996 in https://github.com/open-mmlab/mmediting/pull/1536
+* [Enhancement] Update model zoo by @zengyh1900 in https://github.com/open-mmlab/mmediting/pull/1561
+* [feature] support stable diffusion inference by @liuwenran in https://github.com/open-mmlab/mmediting/pull/1502
+* [CodeCamp #84] Support SwinIR model by @Zdafeng in https://github.com/open-mmlab/mmediting/pull/1476
+* [Enhancement] Revise SWD metric and DCGAN's configs by @LeoXing1996 in https://github.com/open-mmlab/mmediting/pull/1528
+* [Community] Support GLIDE by @Taited in https://github.com/open-mmlab/mmediting/pull/1534
+
+## New Contributors
+* @xiaomile made their first contribution in https://github.com/open-mmlab/mmediting/pull/1481
+* @ldr426 made their first contribution in https://github.com/open-mmlab/mmediting/pull/1542
+* @austin273 made their first contribution in https://github.com/open-mmlab/mmediting/pull/1553
+* @whu-lee made their first contribution in https://github.com/open-mmlab/mmediting/pull/1539
+* @willaty made their first contribution in https://github.com/open-mmlab/mmediting/pull/1541
+* @curiosity654 made their first contribution in https://github.com/open-mmlab/mmediting/pull/1556
+* @Zdafeng made their first contribution in https://github.com/open-mmlab/mmediting/pull/1476
+* @Taited made their first contribution in https://github.com/open-mmlab/mmediting/pull/1534
+
+**Full Changelog**: https://github.com/open-mmlab/mmediting/compare/v1.0.0rc4...v1.0.0rc5
+
+
 ## v1.0.0rc4 (05/12/2022)
 
 **Highlights**
